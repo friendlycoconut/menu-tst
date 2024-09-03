@@ -31,12 +31,6 @@
       <div class="container mx-auto">
         <h2 class="text-3xl text-white font-bold text-center mb-6">Our Menu</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <img
-            class="rounded-full w-84 h-64"
-            src="../assets/image-1.jpg"
-            alt="Vite logo"
-          />
-
           <MenuItem
             class="col-start-2 col-span-2 bg-sky-400"
             v-for="item in menuItems"
