@@ -2,12 +2,14 @@
 import Banner from "./components/Banner.vue";
 import Footer from "./components/Footer.vue";
 import Content from "./components/Content.vue";
-import PhotoGrid from "./components/PhotoGrid.vue";
+import Carousel from "./components/Carousel.vue";
+import MenuTable from "./components/MenuTable.vue";
 </script>
 
 <template>
   <Banner />
   <Content />
-  <PhotoGrid />
+  <Carousel />
+  <MenuTable />
   <Footer />
 </template>
